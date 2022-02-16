@@ -27,7 +27,7 @@ body
 .container .left_Side
 {
 	position: relative;
-	background: #003147;
+	background: #DB93E7;
 	padding: 40px;
 }
 .profileText
@@ -58,7 +58,7 @@ body
 }
 .profileText h2
 {
-	color: #fff;
+	color: #000;
 	font-size: 1.5em;
 	margin-top: 20px;
 	text-transform: uppercase;
@@ -77,11 +77,12 @@ body
 }
 .title
 {
-	color: #fff;
+	color: #000;
 	text-transform: uppercase;
 	font-weight: 600;
 	letter-spacing: 1px;
 	margin-bottom: 20px;
+	text-decoration: underline;
 }
 .contactInfo ul
 {
@@ -99,12 +100,26 @@ body
 	display: inline-block;
 	width: 30px;
 	font-size: 18px;
-	color: #03a9f4;
+	color: #000;
+}
+.contactInfo ul li .text2
+{
+	margin-left: 35px;
 }
 .contactInfo ul li span
 {
-	color: #fff;
+	color: #000;
 	font-weight: 300;
+}
+.contactInfo ul li a
+{
+	color: #000;
+	text-decoration: none;
+}
+.contactInfo ul li a:hover
+{
+	text-decoration: underline;
+	color: #000;
 }
 .contactInfo.education li
 {
@@ -112,25 +127,25 @@ body
 }
 .contactInfo.education h5
 {
-	color: #03a9f4;
+	color: #000;
 	font-weight: 500;
 }
 .contactInfo.education h4:nth-child(2)
 {
-	color: #fff;
+	color: #000;
 	font-weight: 500;
 }
 .contactInfo.education h4
 {
-	color: #fff;
+	color: #000;
 	font-weight: 300;
 }
-.contactInfo.lenguaje .percent
+/*.contactInfo.lenguaje .percent
 {
 	position: relative;
 	width: 100%;
 	height: 6px;
-	background: #081921;
+	background: #000;
 	display: block;
 	margin-top: 5px;
 }
@@ -142,7 +157,7 @@ body
 	height: 100%;
 	background: #03a9f4;
 
-}
+}*/
 .container .right_Side
 {
 	position: relative;
@@ -163,6 +178,7 @@ body
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
+	text-decoration: underline;
 }
 .p
 {
@@ -190,7 +206,7 @@ body
 	color: #2a7da2;
 	font-size: 16px;
 }
-.skills .box
+/*.skills .box
 {
 	position: relative;
 	width: 100%;
@@ -204,6 +220,11 @@ body
 	text-transform: uppercase;
 	color: #848c99;
 	font-weight: 500;
+}
+/*.skills .box li
+{
+	display: grid;
+	grid-template-columns: 150px 1fr;
 }
 .skills .box .percent
 {
@@ -219,7 +240,7 @@ body
 	left: 0;
 	height: 100%;
 	background: #03a9f4;
-}
+}*/
 .interest ul
 {
 	display: grid;
@@ -237,6 +258,23 @@ body
 	color: #03a9f4;
 	font-size: 18px;
 	width: 20px;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.btn a
+{
+	text-decoration: none;
 }
 
 @media (max-width: 1000px)
