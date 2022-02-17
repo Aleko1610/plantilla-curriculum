@@ -184,6 +184,11 @@ body
 {
 	color: #333;
 }
+.primeralinea
+{
+	text-indent: 25px;
+	text-align: justify;
+}
 .about .box
 {
 	display: flex;
